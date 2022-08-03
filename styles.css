@@ -51,12 +51,12 @@ span {
 
 .fieldDiv {
     display: flex;
-    justify-content: space-between;
+    
     padding-bottom: 20px;
 }
 
 .emptyField {
-    width: 48%;
+    width: 100%;
     color: #55F991;
     background-color: #2F3E53;
     border-radius: 6px;
