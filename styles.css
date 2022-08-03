@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainDiv {
+    background-color: #273549;
+    max-width: 800px;
+    padding: 60px 40px;
+    border-radius: 15px;
+}
+
+span {
+    color: #10B981;
+}
+
+.line {
+    border: 1px solid #2F3E53;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #10B981;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 6px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin: 40px 0px;
+}
+
+
+.fieldDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.emptyField {
+    width: 48%;
+    color: #55F991;
+    background-color: #2F3E53;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
