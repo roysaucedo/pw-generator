@@ -4,13 +4,30 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let button = document.getElementById('generateBtn')
 let password = document.getElementById('pwField')
+let passwordLength = 14
 
 
 
-function newPassword (){
-    console.log(characters[0])
 
+function getRandomCharacter (){
+    let randomChar = Math.floor( Math.random() * characters.length)
+    return characters[randomChar]
 }
 
 
-button.addEventListener("click", newPassword)
+function newPassword () {
+    let randomPassword = ""
+    for (let i = 0; i < passwordLength; i++) {
+        randomPassword += getRandomCharacter()
+    }
+    return randomPassword
+}
+
+const generatedPasswordOne = newPassword() // Named the value put out by newPassword()
+
+function displayPassword () {
+    password.innerText = generatedPasswordOne
+}
+
+
+button.addEventListener("click", displayPassword)
