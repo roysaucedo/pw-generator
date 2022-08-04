@@ -31,6 +31,18 @@ span {
     color: #10B981;
 }
 
+.btnDiv {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    display: none;
+}
+
 .line {
     border: 1px solid #2F3E53;
     margin-bottom: 40px;
@@ -45,7 +57,7 @@ span {
     border-radius: 6px;
     font-family: 'Karla', sans-serif;
     font-size: 18px;
-    margin: 40px 0px;
+    margin: 30px 0px;
 }
 
 

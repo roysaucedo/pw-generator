@@ -5,6 +5,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let button = document.getElementById('generateBtn')
 let password = document.getElementById('pwField')
 let passwordLength = 14
+let restart = document.getElementById('restartLink')
 
 
 
@@ -27,6 +28,7 @@ const generatedPasswordOne = newPassword() // Named the value put out by newPass
 
 function displayPassword () {
     password.innerText = generatedPasswordOne
+    restart.style.display = 'block'
 }
 
 
