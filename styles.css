@@ -40,6 +40,8 @@ span {
 a {
     text-decoration: none;
     color: #273549;
+    display: none;
+
 }
 
 .line {
